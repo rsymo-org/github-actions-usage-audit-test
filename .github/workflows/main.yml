@@ -13,7 +13,8 @@ jobs:
         uses: fergusmacd/github-action-usage@daff7e5517914546a1e39fcc22f476e1471853f6 # use a commit SHA
         # pass user input as arguments
         with:
-          organisation: ${{secrets.ORGANISATION}}
+#          organisation: ${{secrets.ORGANISATION}}
+          organisation: rsymo-org
           gitHubAPIKey: ${{secrets.GITHUBAPIKEY}} # default token in GitHub Workflow
           loglevel: error # not required, change to debug if misbehaving
           raisealarmremainingminutes: 100 # not required, defaults to 100
