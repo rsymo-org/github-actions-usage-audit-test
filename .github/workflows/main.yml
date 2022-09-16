@@ -16,6 +16,6 @@ jobs:
 #          organisation: ${{secrets.ORGANISATION}}
           organisation: rsymo-org
           gitHubAPIKey: ${{secrets.GITHUBAPIKEY}} # default token in GitHub Workflow
-          loglevel: error # not required, change to debug if misbehaving
- #         raisealarmremainingminutes:  100 # not required, defaults to 100
+          loglevel: debug # error, not required, change to debug if misbehaving
+          raisealarmremainingminutes:  100 # not required, defaults to 100
 
